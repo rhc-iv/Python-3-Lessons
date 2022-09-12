@@ -10,7 +10,8 @@ This folder contains a colletion of articles, exercises, and .py files generated
 ----
 
 ## CHAPTERS:
-*  [Hello World](https://github.com/rhc-iv/Python-3-Lessons/tree/main/Non-Programmer's%20Tutorial%20for%20Python%203/01%20-%20Hello%20World)
+*  [01 - Hello World](https://github.com/rhc-iv/Python-3-Lessons/tree/main/Non-Programmer's%20Tutorial%20for%20Python%203/01%20-%20Hello%20World)
+----
 
 ## TO-DO:
 *  _Create & Orgranize folders corresponding to the tutorial chapter layout._
