@@ -24,4 +24,4 @@ Repo for self-taught Python programming. Includes (but not limited to) descripti
 
 ## Folders
 
-*  [Non-Programmer's Guide to Python 3](https://github.com/bobkarr72/Python-Learning/tree/main/Non-Programmer's%20Tutorial%20for%20Python%203)
+*  [Non-Programmer's Guide to Python 3](https://github.com/rhc-iv/Python-3-Lessons/tree/main/Non-Programmer's%20Tutorial%20for%20Python%203)
