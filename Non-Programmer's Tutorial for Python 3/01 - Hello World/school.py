@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# An example of multi-line strings using arithmetic expressions
+
 print("Firstish Grade")
 print("1 + 1 =", 1 + 1)
 print("2 + 4 =", 2 + 4)

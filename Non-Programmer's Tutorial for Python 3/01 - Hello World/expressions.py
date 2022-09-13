@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# As you can see, Python can turn your thousand-dollar computer into a five-dollar calculator!
+
 print("2 + 2 is", 2 + 2)
 print("3 * 4 is", 3 * 4)
 print("100 - 1 is", 100 - 1)
