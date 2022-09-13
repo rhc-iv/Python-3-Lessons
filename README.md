@@ -2,7 +2,7 @@
 
 
 # Python Learning
-![Consumption](https://img.shields.io/static/v1?label=Consumption&message=Private&color=fed42a)
+![Consumption](https://img.shields.io/static/v1?label=Consumption&message=Public&color=fed42a)
 ![Purpose](https://img.shields.io/static/v1?label=Purpose&message=Educational&color=b497d5)
 ![Python 3](https://img.shields.io/static/v1?label=Python3&message=3.10.6&color=9ed670)
 ----
