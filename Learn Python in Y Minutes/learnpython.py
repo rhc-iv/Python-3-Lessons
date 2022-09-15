@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python3
 
 # Single line comments start with a number symbol.
 
@@ -7,9 +7,7 @@
     as documentation.
 """
 
-####################################################
 ## 1. Primitive Datatypes and Operators
-####################################################
 
 # You have numbers
 3  # => 3
@@ -34,56 +32,55 @@
 # i % j have the same sign as j, unlike C
 -7 % 3  # => 2
 
-# Exponentiation (x**y, x to the yth power)
-2**3  # => 8
+# Exponentiation (x**y, x to the yth power) 2** 3  # => 8
 
 # Enforce precedence with parentheses
-1 + 3 * 2    # => 7
+1 + 3 * 2  # => 7
 (1 + 3) * 2  # => 8
 
 # Boolean values are primitives (Note: the capitalization)
-True   # => True
+True  # => True
 False  # => False
 
 # negate with not
-not True   # => False
+not True  # => False
 not False  # => True
 
 # Boolean Operators
 # Note "and" and "or" are case-sensitive
 True and False  # => False
-False or True   # => True
+False or True  # => True
 
 # True and False are actually 1 and 0 but with different keywords
-True + True # => 2
-True * 8    # => 8
-False - 5   # => -5
+True + True  # => 2
+True * 8  # => 8
+False - 5  # => -5
 
 # Comparison operators look at the numerical value of True and False
 0 == False  # => True
-1 == True   # => True
-2 == True   # => False
--5 != False # => True
+1 == True  # => True
+2 == True  # => False
+-5 != False  # => True
 
 # None, 0, and empty strings/lists/dicts/tuples/sets all evaluate to False.
 # All other values are True
-bool(0)     # => False
-bool("")    # => False
-bool([])    # => False
-bool({})    # => False
-bool(())    # => False
-bool(set()) # => False
-bool(4)     # => True
-bool(-6)    # => True
+bool(0)  # => False
+bool("")  # => False
+bool([])  # => False
+bool({})  # => False
+bool(())  # => False
+bool(set())  # => False
+bool(4)  # => True
+bool(-6)  # => True
 
 # Using boolean logical operators on ints casts them to booleans for evaluation, but their non-cast value is returned
 # Don't mix up with bool(ints) and bitwise and/or (&,|)
-bool(0)     # => False
-bool(2)     # => True
-0 and 2     # => 0
-bool(-5)    # => True
-bool(2)     # => True
--5 or 0     # => -5
+bool(0)  # => False
+bool(2)  # => True
+0 and 2  # => 0
+bool(-5)  # => True
+bool(2)  # => True
+-5 or 0  # => -5
 
 # Equality is ==
 1 == 1  # => True
@@ -109,12 +106,12 @@ bool(2)     # => True
 # (is vs. ==) is checks if two variables refer to the same object, but == checks
 # if the objects pointed to have the same values.
 a = [1, 2, 3, 4]  # Point a at a new list, [1, 2, 3, 4]
-b = a             # Point b at what a is pointing to
-b is a            # => True, a and b refer to the same object
-b == a            # => True, a's and b's objects are equal
+b = a  # Point b at what a is pointing to
+b is a  # => True, a and b refer to the same object
+b == a  # => True, a's and b's objects are equal
 b = [1, 2, 3, 4]  # Point b at a new list, [1, 2, 3, 4]
-b is a            # => False, a and b do not refer to the same object
-b == a            # => True, a's and b's objects are equal
+b is a  # => False, a and b do not refer to the same object
+b == a  # => True, a's and b's objects are equal
 
 # Strings are created with " or '
 "This is a string."
@@ -123,7 +120,7 @@ b == a            # => True, a's and b's objects are equal
 # Strings can be added too
 "Hello " + "world!"  # => "Hello world!"
 # String literals (but not variables) can be concatenated without using '+'
-"Hello " "world!"    # => "Hello world!"
+"Hello " "world!"  # => "Hello world!"
 
 # A string can be treated like a list of characters
 "Hello world!"[0]  # => 'H'
@@ -133,9 +130,9 @@ len("This is a string")  # => 16
 
 # You can also format using f-strings or formatted string literals (in Python 3.6+)
 name = "Reiko"
-f"She said her name is {name}." # => "She said her name is Reiko"
+f"She said her name is {name}."  # => "She said her name is Reiko"
 # You can basically put any Python expression inside the braces and it will be output in the string.
-f"{name} is {len(name)} characters long." # => "Reiko is 5 characters long."
+f"{name} is {len(name)} characters long."  # => "Reiko is 5 characters long."
 
 # None is an object
 None  # => None
@@ -143,16 +140,16 @@ None  # => None
 # Don't use the equality "==" symbol to compare objects to None
 # Use "is" instead. This checks for equality of object identity.
 "etc" is None  # => False
-None is None   # => True
+None is None  # => True
 
 # None, 0, and empty strings/lists/dicts/tuples/sets all evaluate to False.
 # All other values are True
-bool(0)     # => False
-bool("")    # => False
-bool([])    # => False
-bool({})    # => False
-bool(())    # => False
-bool(set()) # => False
+bool(0)  # => False
+bool("")  # => False
+bool([])  # => False
+bool({})  # => False
+bool(())  # => False
+bool(set())  # => False
 
 ####################################################
 ## 2. Variables and Collections
@@ -166,7 +163,7 @@ print("I'm Python. Nice to meet you!")  # => I'm Python. Nice to meet you!
 print("Hello, World", end="!")  # => Hello, World!
 
 # Simple way to get input data from console
-input_string_var = input("Enter some data: ") # Returns the data as a string
+input_string_var = input("Enter some data: ")  # Returns the data as a string
 
 # There are no declarations, only assignments.
 # Convention is to use lower_case_with_underscores
@@ -187,17 +184,17 @@ li = []
 other_li = [4, 5, 6]
 
 # Add stuff to the end of a list with append
-li.append(1)    # li is now [1]
-li.append(2)    # li is now [1, 2]
-li.append(4)    # li is now [1, 2, 4]
-li.append(3)    # li is now [1, 2, 4, 3]
+li.append(1)  # li is now [1]
+li.append(2)  # li is now [1, 2]
+li.append(4)  # li is now [1, 2, 4]
+li.append(3)  # li is now [1, 2, 4, 3]
 # Remove from the end with pop
-li.pop()        # => 3 and li is now [1, 2, 4]
+li.pop()  # => 3 and li is now [1, 2, 4]
 # Let's put it back
-li.append(3)    # li is now [1, 2, 4, 3] again.
+li.append(3)  # li is now [1, 2, 4, 3] again.
 
 # Access a list like you would any array
-li[0]   # => 1
+li[0]  # => 1
 # Look at the last element
 li[-1]  # => 3
 
@@ -207,10 +204,10 @@ li[4]  # Raises an IndexError
 # You can look at ranges with slice syntax.
 # The start index is included, the end index is not
 # (It's a closed/open range for you mathy types.)
-li[1:3]   # Return list from index 1 to 3 => [2, 4]
-li[2:]    # Return list starting from index 2 => [4, 3]
-li[:3]    # Return list from beginning until index 3  => [1, 2, 4]
-li[::2]   # Return list selecting every second entry => [1, 4]
+li[1:3]  # Return list from index 1 to 3 => [2, 4]
+li[2:]  # Return list starting from index 2 => [4, 3]
+li[:3]  # Return list from beginning until index 3  => [1, 2, 4]
+li[::2]  # Return list selecting every second entry => [1, 4]
 li[::-1]  # Return list in reverse order => [3, 4, 2, 1]
 # Use any combination of these to make advanced slices
 # li[start:end:step]
@@ -245,23 +242,22 @@ li.extend(other_li)  # Now li is [1, 2, 3, 4, 5, 6]
 # Examine the length with "len()"
 len(li)  # => 6
 
-
 # Tuples are like lists but are immutable.
 tup = (1, 2, 3)
-tup[0]      # => 1
+tup[0]  # => 1
 tup[0] = 3  # Raises a TypeError
 
 # Note that a tuple of length one has to have a comma after the last element but
 # tuples of other lengths, even zero, do not.
-type((1))   # => <class 'int'>
+type((1))  # => <class 'int'>
 type((1,))  # => <class 'tuple'>
-type(())    # => <class 'tuple'>
+type(())  # => <class 'tuple'>
 
 # You can do most of the list operations on tuples too
-len(tup)         # => 3
+len(tup)  # => 3
 tup + (4, 5, 6)  # => (1, 2, 3, 4, 5, 6)
-tup[:2]          # => (1, 2)
-2 in tup         # => True
+tup[:2]  # => (1, 2)
+2 in tup  # => True
 
 # You can unpack tuples (or lists) into variables
 a, b, c = (1, 2, 3)  # a is now 1, b is now 2 and c is now 3
@@ -273,7 +269,6 @@ d, e, f = 4, 5, 6  # tuple 4, 5, 6 is unpacked into variables d, e and f
 # Now look how easy it is to swap two values
 e, d = d, e  # d is now 5 and e is now 4
 
-
 # Dictionaries store mappings from keys to values
 empty_dict = {}
 # Here is a prefilled dictionary
@@ -282,8 +277,8 @@ filled_dict = {"one": 1, "two": 2, "three": 3}
 # Note keys for dictionaries have to be immutable types. This is to ensure that
 # the key can be converted to a constant hash value for quick look-ups.
 # Immutable types include ints, floats, strings, tuples.
-invalid_dict = {[1,2,3]: "123"}  # => Raises a TypeError: unhashable type: 'list'
-valid_dict = {(1,2,3):[1,2,3]}   # Values can be of any type, however.
+invalid_dict = {[1, 2, 3]: "123"}  # => Raises a TypeError: unhashable type: 'list'
+valid_dict = {(1, 2, 3): [1, 2, 3]}  # Values can be of any type, however.
 
 # Look up values with []
 filled_dict["one"]  # => 1
@@ -296,7 +291,6 @@ filled_dict["one"]  # => 1
 list(filled_dict.keys())  # => ["three", "two", "one"] in Python <3.7
 list(filled_dict.keys())  # => ["one", "two", "three"] in Python 3.7+
 
-
 # Get all values as an iterable with "values()". Once again we need to wrap it
 # in list() to get it out of the iterable. Note - Same as above regarding key
 # ordering.
@@ -305,16 +299,16 @@ list(filled_dict.values())  # => [1, 2, 3] in Python 3.7+
 
 # Check for existence of keys in a dictionary with "in"
 "one" in filled_dict  # => True
-1 in filled_dict      # => False
+1 in filled_dict  # => False
 
 # Looking up a non-existing key is a KeyError
 filled_dict["four"]  # KeyError
 
 # Use "get()" method to avoid the KeyError
-filled_dict.get("one")      # => 1
-filled_dict.get("four")     # => None
+filled_dict.get("one")  # => 1
+filled_dict.get("four")  # => None
 # The get method supports a default argument when the value is missing
-filled_dict.get("one", 4)   # => 1
+filled_dict.get("one", 4)  # => 1
 filled_dict.get("four", 4)  # => 4
 
 # "setdefault()" inserts into a dictionary only if the given key isn't present
@@ -322,8 +316,8 @@ filled_dict.setdefault("five", 5)  # filled_dict["five"] is set to 5
 filled_dict.setdefault("five", 6)  # filled_dict["five"] is still 5
 
 # Adding to a dictionary
-filled_dict.update({"four":4})  # => {"one": 1, "two": 2, "three": 3, "four": 4}
-filled_dict["four"] = 4         # another way to add to dict
+filled_dict.update({"four": 4})  # => {"one": 1, "two": 2, "three": 3, "four": 4}
+filled_dict["four"] = 4  # another way to add to dict
 
 # Remove keys from a dictionary with del
 del filled_dict["one"]  # Removes the key "one" from filled dict
@@ -331,8 +325,6 @@ del filled_dict["one"]  # Removes the key "one" from filled dict
 # From Python 3.5 you can also use the additional unpacking options
 {'a': 1, **{'b': 2}}  # => {'a': 1, 'b': 2}
 {'a': 1, **{'a': 2}}  # => {'a': 2}
-
-
 
 # Sets store ... well sets
 empty_set = set()
@@ -363,19 +355,18 @@ filled_set | other_set  # => {1, 2, 3, 4, 5, 6}
 {1, 2, 3, 4} ^ {2, 3, 5}  # => {1, 4, 5}
 
 # Check if set on the left is a superset of set on the right
-{1, 2} >= {1, 2, 3} # => False
+{1, 2} >= {1, 2, 3}  # => False
 
 # Check if set on the left is a subset of set on the right
-{1, 2} <= {1, 2, 3} # => True
+{1, 2} <= {1, 2, 3}  # => True
 
 # Check for existence in a set with in
-2 in filled_set   # => True
+2 in filled_set  # => True
 10 in filled_set  # => False
 
 # Make a one layer deep copy
 filled_set = some_set.copy()  # filled_set is {1, 2, 3, 4, 5}
-filled_set is some_set        # => False
-
+filled_set is some_set  # => False
 
 ####################################################
 ## 3. Control Flow and Iterables
@@ -389,11 +380,10 @@ some_var = 5
 # This prints "some_var is smaller than 10"
 if some_var > 10:
     print("some_var is totally bigger than 10.")
-elif some_var < 10:    # This elif clause is optional.
+elif some_var < 10:  # This elif clause is optional.
     print("some_var is smaller than 10.")
-else:                  # This is optional too.
+else:  # This is optional too.
     print("some_var is indeed 10.")
-
 
 """
 For loops iterate over lists
@@ -470,12 +460,12 @@ try:
     # Use "raise" to raise an error
     raise IndexError("This is an index error")
 except IndexError as e:
-    pass                 # Pass is just a no-op. Usually you would do recovery here.
+    pass  # Pass is just a no-op. Usually you would do recovery here.
 except (TypeError, NameError):
-    pass                 # Multiple exceptions can be handled together, if required.
-else:                    # Optional clause to the try/except block. Must follow all except blocks
-    print("All good!")   # Runs only if the code in try raises no exceptions
-finally:                 # Execute under all circumstances
+    pass  # Multiple exceptions can be handled together, if required.
+else:  # Optional clause to the try/except block. Must follow all except blocks
+    print("All good!")  # Runs only if the code in try raises no exceptions
+finally:  # Execute under all circumstances
     print("We can clean up resources here")
 
 # Instead of try/finally to cleanup resources you can use a with statement
@@ -486,19 +476,19 @@ with open("myfile.txt") as f:
 # Writing to a file
 contents = {"aa": 12, "bb": 21}
 with open("myfile1.txt", "w+") as file:
-    file.write(str(contents))        # writes a string to a file
+    file.write(str(contents))  # writes a string to a file
 
 with open("myfile2.txt", "w+") as file:
-    file.write(json.dumps(contents)) # writes an object to a file
+    file.write(json.dumps(contents))  # writes an object to a file
 
 # Reading from a file
 with open('myfile1.txt', "r+") as file:
-    contents = file.read()           # reads a string from a file
+    contents = file.read()  # reads a string from a file
 print(contents)
 # print: {"aa": 12, "bb": 21}
 
 with open('myfile2.txt', "r+") as file:
-    contents = json.load(file)       # reads a json object from a file
+    contents = json.load(file)  # reads a json object from a file
 print(contents)
 # print: {"aa": 12, "bb": 21}
 
@@ -551,23 +541,28 @@ def add(x, y):
     print("x is {} and y is {}".format(x, y))
     return x + y  # Return values with a return statement
 
+
 # Calling functions with parameters
 add(5, 6)  # => prints out "x is 5 and y is 6" and returns 11
 
 # Another way to call functions is with keyword arguments
 add(y=6, x=5)  # Keyword arguments can arrive in any order.
 
+
 # You can define functions that take a variable number of
 # positional arguments
 def varargs(*args):
     return args
 
+
 varargs(1, 2, 3)  # => (1, 2, 3)
+
 
 # You can define functions that take a variable number of
 # keyword arguments, as well
 def keyword_args(**kwargs):
     return kwargs
+
 
 # Let's call it to see what happens
 keyword_args(big="foot", loch="ness")  # => {"big": "foot", "loch": "ness"}
@@ -577,6 +572,8 @@ keyword_args(big="foot", loch="ness")  # => {"big": "foot", "loch": "ness"}
 def all_the_args(*args, **kwargs):
     print(args)
     print(kwargs)
+
+
 """
 all_the_args(1, 2, a=3, b=4) prints:
     (1, 2)
@@ -587,33 +584,38 @@ all_the_args(1, 2, a=3, b=4) prints:
 # Use * to expand tuples and use ** to expand kwargs.
 args = (1, 2, 3, 4)
 kwargs = {"a": 3, "b": 4}
-all_the_args(*args)            # equivalent to all_the_args(1, 2, 3, 4)
-all_the_args(**kwargs)         # equivalent to all_the_args(a=3, b=4)
+all_the_args(*args)  # equivalent to all_the_args(1, 2, 3, 4)
+all_the_args(**kwargs)  # equivalent to all_the_args(a=3, b=4)
 all_the_args(*args, **kwargs)  # equivalent to all_the_args(1, 2, 3, 4, a=3, b=4)
+
 
 # Returning multiple values (with tuple assignments)
 def swap(x, y):
     return y, x  # Return multiple values as a tuple without the parenthesis.
-                 # (Note: parenthesis have been excluded but can be included)
+    # (Note: parenthesis have been excluded but can be included)
+
 
 x = 1
 y = 2
-x, y = swap(x, y)     # => x = 2, y = 1
+x, y = swap(x, y)  # => x = 2, y = 1
 # (x, y) = swap(x,y)  # Again parenthesis have been excluded but can be included.
 
 # Function Scope
 x = 5
 
+
 def set_x(num):
     # Local var x not the same as global variable x
-    x = num    # => 43
-    print(x)   # => 43
+    x = num  # => 43
+    print(x)  # => 43
+
 
 def set_global_x(num):
     global x
-    print(x)   # => 5
-    x = num    # global var x is now set to 6
-    print(x)   # => 6
+    print(x)  # => 5
+    x = num  # global var x is now set to 6
+    print(x)  # => 6
+
 
 set_x(43)
 set_global_x(6)
@@ -623,30 +625,31 @@ set_global_x(6)
 def create_adder(x):
     def adder(y):
         return x + y
+
     return adder
 
+
 add_10 = create_adder(10)
-add_10(3)   # => 13
+add_10(3)  # => 13
 
 # There are also anonymous functions
-(lambda x: x > 2)(3)                  # => True
+(lambda x: x > 2)(3)  # => True
 (lambda x, y: x ** 2 + y ** 2)(2, 1)  # => 5
 
 # There are built-in higher order functions
-list(map(add_10, [1, 2, 3]))          # => [11, 12, 13]
+list(map(add_10, [1, 2, 3]))  # => [11, 12, 13]
 list(map(max, [1, 2, 3], [4, 2, 1]))  # => [4, 2, 3]
 
 list(filter(lambda x: x > 5, [3, 4, 5, 6, 7]))  # => [6, 7]
 
 # We can use list comprehensions for nice maps and filters
 # List comprehension stores the output as a list which can itself be a nested list
-[add_10(i) for i in [1, 2, 3]]         # => [11, 12, 13]
+[add_10(i) for i in [1, 2, 3]]  # => [11, 12, 13]
 [x for x in [3, 4, 5, 6, 7] if x > 5]  # => [6, 7]
 
 # You can construct set and dict comprehensions as well.
 {x for x in 'abcddeef' if x not in 'abc'}  # => {'d', 'e', 'f'}
-{x: x**2 for x in range(5)}  # => {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
-
+{x: x ** 2 for x in range(5)}  # => {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
 
 ####################################################
 ## 5. Modules
@@ -654,11 +657,13 @@ list(filter(lambda x: x > 5, [3, 4, 5, 6, 7]))  # => [6, 7]
 
 # You can import modules
 import math
+
 print(math.sqrt(16))  # => 4.0
 
 # You can get specific functions from a module
 from math import ceil, floor
-print(ceil(3.7))   # => 4.0
+
+print(ceil(3.7))  # => 4.0
 print(floor(3.7))  # => 3.0
 
 # You can import all functions from a module.
@@ -667,6 +672,7 @@ from math import *
 
 # You can shorten module names
 import math as m
+
 math.sqrt(16) == m.sqrt(16)  # => True
 
 # Python modules are just ordinary Python files. You
@@ -676,7 +682,9 @@ math.sqrt(16) == m.sqrt(16)  # => True
 # You can find out which functions and attributes
 # are defined in a module.
 import math
+
 dir(math)
+
 
 # If you have a Python script named math.py in the same
 # folder as your current script, the file math.py will
@@ -691,7 +699,6 @@ dir(math)
 
 # We use the "class" statement to create a class
 class Human:
-
     # A class attribute. It is shared by all instances of this class
     species = "H. sapiens"
 
@@ -751,33 +758,32 @@ class Human:
 if __name__ == '__main__':
     # Instantiate a class
     i = Human(name="Ian")
-    i.say("hi")                     # "Ian: hi"
+    i.say("hi")  # "Ian: hi"
     j = Human("Joel")
-    j.say("hello")                  # "Joel: hello"
+    j.say("hello")  # "Joel: hello"
     # i and j are instances of type Human, or in other words: they are Human objects
 
     # Call our class method
-    i.say(i.get_species())          # "Ian: H. sapiens"
+    i.say(i.get_species())  # "Ian: H. sapiens"
     # Change the shared attribute
     Human.species = "H. neanderthalensis"
-    i.say(i.get_species())          # => "Ian: H. neanderthalensis"
-    j.say(j.get_species())          # => "Joel: H. neanderthalensis"
+    i.say(i.get_species())  # => "Ian: H. neanderthalensis"
+    j.say(j.get_species())  # => "Joel: H. neanderthalensis"
 
     # Call the static method
-    print(Human.grunt())            # => "*grunt*"
+    print(Human.grunt())  # => "*grunt*"
 
     # Static methods can be called by instances too
-    print(i.grunt())                # => "*grunt*"
+    print(i.grunt())  # => "*grunt*"
 
     # Update the property for this instance
     i.age = 42
     # Get the property
-    i.say(i.age)                    # => "Ian: 42"
-    j.say(j.age)                    # => "Joel: 0"
+    i.say(i.age)  # => "Ian: 42"
+    j.say(j.age)  # => "Joel: 0"
     # Delete the property
     del i.age
     # i.age                         # => this would raise an AttributeError
-
 
 ####################################################
 ## 6.1 Inheritance
@@ -802,7 +808,6 @@ from human import Human
 
 # Specify the parent class(es) as parameters to the class definition
 class Superhero(Human):
-
     # If the child class should inherit all of the parent's definitions without
     # any modifications, you can just use the "pass" keyword (and nothing else)
     # but in this case it is commented out to allow for a unique child class:
@@ -818,7 +823,6 @@ class Superhero(Human):
     # adds the "superpower" and "movie" arguments:
     def __init__(self, name, movie=False,
                  superpowers=["super strength", "bulletproofing"]):
-
         # add additional class attributes:
         self.fictional = True
         self.movie = movie
@@ -851,28 +855,29 @@ if __name__ == '__main__':
 
     # Get the Method Resolution search Order used by both getattr() and super()
     # This attribute is dynamic and can be updated
-    print(Superhero.__mro__)    # => (<class '__main__.Superhero'>,
-                                # => <class 'human.Human'>, <class 'object'>)
+    print(Superhero.__mro__)  # => (<class '__main__.Superhero'>,
+    # => <class 'human.Human'>, <class 'object'>)
 
     # Calls parent method but uses its own class attribute
-    print(sup.get_species())    # => Superhuman
+    print(sup.get_species())  # => Superhuman
 
     # Calls overridden method
-    print(sup.sing())           # => Dun, dun, DUN!
+    print(sup.sing())  # => Dun, dun, DUN!
 
     # Calls method from Human
-    sup.say('Spoon')            # => Tick: Spoon
+    sup.say('Spoon')  # => Tick: Spoon
 
     # Call method that exists only in Superhero
-    sup.boast()                 # => I wield the power of super strength!
-                                # => I wield the power of bulletproofing!
+    sup.boast()  # => I wield the power of super strength!
+    # => I wield the power of bulletproofing!
 
     # Inherited class attribute
     sup.age = 31
-    print(sup.age)              # => 31
+    print(sup.age)  # => 31
 
     # Attribute that only exists within Superhero
     print('Am I Oscar eligible? ' + str(sup.movie))
+
 
 ####################################################
 ## 6.2 Multiple Inheritance
@@ -881,7 +886,6 @@ if __name__ == '__main__':
 # Another class definition
 # bat.py
 class Bat:
-
     species = 'Baty'
 
     def __init__(self, can_fly=True):
@@ -896,16 +900,17 @@ class Bat:
     def sonar(self):
         return '))) ... ((('
 
+
 if __name__ == '__main__':
     b = Bat()
     print(b.say('hello'))
     print(b.fly)
 
-
 # And yet another class definition that inherits from Superhero and Bat
 # superhero.py
 from superhero import Superhero
 from bat import Bat
+
 
 # Define Batman as a child that inherits from both Superhero and Bat
 class Batman(Superhero, Bat):
@@ -933,30 +938,29 @@ if __name__ == '__main__':
 
     # Get the Method Resolution search Order used by both getattr() and super().
     # This attribute is dynamic and can be updated
-    print(Batman.__mro__)       # => (<class '__main__.Batman'>,
-                                # => <class 'superhero.Superhero'>,
-                                # => <class 'human.Human'>,
-                                # => <class 'bat.Bat'>, <class 'object'>)
+    print(Batman.__mro__)  # => (<class '__main__.Batman'>,
+    # => <class 'superhero.Superhero'>,
+    # => <class 'human.Human'>,
+    # => <class 'bat.Bat'>, <class 'object'>)
 
     # Calls parent method but uses its own class attribute
-    print(sup.get_species())    # => Superhuman
+    print(sup.get_species())  # => Superhuman
 
     # Calls overridden method
-    print(sup.sing())           # => nan nan nan nan nan batman!
+    print(sup.sing())  # => nan nan nan nan nan batman!
 
     # Calls method from Human, because inheritance order matters
-    sup.say('I agree')          # => Sad Affleck: I agree
+    sup.say('I agree')  # => Sad Affleck: I agree
 
     # Call method that exists only in 2nd ancestor
-    print(sup.sonar())          # => ))) ... (((
+    print(sup.sonar())  # => ))) ... (((
 
     # Inherited class attribute
     sup.age = 100
-    print(sup.age)              # => 100
+    print(sup.age)  # => 100
 
     # Inherited attribute from 2nd ancestor whose default value was overridden.
-    print('Can I fly? ' + str(sup.fly)) # => Can I fly? False
-
+    print('Can I fly? ' + str(sup.fly))  # => Can I fly? False
 
 
 ####################################################
@@ -967,6 +971,7 @@ if __name__ == '__main__':
 def double_numbers(iterable):
     for i in iterable:
         yield i + i
+
 
 # Generators are memory-efficient because they only load the data needed to
 # process the next value in the iterable. This allows them to perform
@@ -979,15 +984,14 @@ for i in double_numbers(range(1, 900000000)):  # `range` is a generator.
 
 # Just as you can create a list comprehension, you can create generator
 # comprehensions as well.
-values = (-x for x in [1,2,3,4,5])
+values = (-x for x in [1, 2, 3, 4, 5])
 for x in values:
     print(x)  # prints -1 -2 -3 -4 -5 to console/terminal
 
 # You can also cast a generator comprehension directly to a list.
-values = (-x for x in [1,2,3,4,5])
+values = (-x for x in [1, 2, 3, 4, 5])
 gen_to_list = list(values)
 print(gen_to_list)  # => [-1, -2, -3, -4, -5]
-
 
 # Decorators
 # In this example `beg` wraps `say`. If say_please is True then it
@@ -1012,6 +1016,5 @@ def say(say_please=False):
     return msg, say_please
 
 
-print(say())                 # Can you buy me a beer?
+print(say())  # Can you buy me a beer?
 print(say(say_please=True))  # Can you buy me a beer? Please! I am poor :(
-
