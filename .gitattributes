@@ -1,8 +1,7 @@
-# Auto detect text files and perform LF normalization
+# Auto-detect text files and perform LF normalization |
 * text=auto
 
 # Documents
-
 *.bibtex   text diff=bibtex
 *.doc      diff=astextplain
 *.DOC      diff=astextplain
@@ -29,7 +28,6 @@
 
 
 # Graphics
-
 *.png      binary
 *.jpg      binary
 *.jpeg     binary
@@ -37,35 +35,25 @@
 *.tif      binary
 *.tiff     binary
 *.ico      binary
-
 # SVG treated as text by default.
-
 *.svg      text
-
 # If you want to treat it as binary, use the following line instead.
-
 # *.svg    binary
-
 *.eps      binary
 
 
 # Scripts
-
 *.bash     text eol=lf
 *.fish     text eol=lf
 *.sh       text eol=lf
 *.zsh      text eol=lf
-
 # These are explicitly windows files and should use crlf
-
 *.bat      text eol=crlf
 *.cmd      text eol=crlf
 *.ps1      text eol=crlf
 
 
-# ==============|
-# Serialisation |
-# ==============|
+# Serialisation
 *.json     text
 *.toml     text
 *.xml      text
@@ -73,9 +61,7 @@
 *.yml      text
 
 
-# =========|
-# Archives |
-# =========|
+# Archives 
 *.7z       binary
 *.gz       binary
 *.tar      binary
@@ -84,8 +70,8 @@
 
 
 # Text files where line endings should be preserved
-
 *.patch    -text
+
 
 # Exclude files from exporting
 .gitattributes export-ignore
