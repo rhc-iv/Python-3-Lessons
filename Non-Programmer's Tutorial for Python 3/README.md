@@ -13,6 +13,7 @@
 *  [02 - Who Goes There?](https://github.com/rhc-iv/Python-3-Lessons/tree/main/Non-Programmer's%20Tutorial%20for%20Python%203/02%20-%20Who%20Goes%20There)
 *  [03 - Count To 10](https://github.com/rhc-iv/Python-3-Lessons/tree/main/Non-Programmer's%20Tutorial%20for%20Python%203/03%20-%20Count%20to%2010)
 *  [04 - Decisions](https://github.com/rhc-iv/Python-3-Lessons/tree/main/Non-Programmer's%20Tutorial%20for%20Python%203/04%20-%20Decisions)
+*  [05 - Debugging](https://github.com/rhc-iv/Python-3-Lessons/tree/main/Non-Programmer's%20Tutorial%20for%20Python%203/05%20-%20Debugging)
 
 ## TO-DO:
 *  _Create & Orgranize folders corresponding to the tutorial chapter layout._
