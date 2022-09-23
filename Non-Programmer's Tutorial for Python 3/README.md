@@ -8,6 +8,7 @@
 *This folder contains a colletion of articles, exercises, and .py files generated from self-paced study [here](https://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3).*
 
 ## CHAPTERS:
+*  [00 - Misc.](https://github.com/rhc-iv/Python-3-Lessons/tree/main/Non-Programmer's%20Tutorial%20for%20Python%203/00%20-%20Misc.)
 *  [01 - Hello, World!](https://github.com/rhc-iv/Python-3-Lessons/tree/main/Non-Programmer's%20Tutorial%20for%20Python%203/01%20-%20Hello%20World)
 *  [02 - Who Goes There?](https://github.com/rhc-iv/Python-3-Lessons/tree/main/Non-Programmer's%20Tutorial%20for%20Python%203/02%20-%20Who%20Goes%20There)
 
