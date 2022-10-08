@@ -2,11 +2,10 @@
 
 
 # Python 3 Lessons
-![Framework](https://img.shields.io/badge/pypi-3775A9?style=for-the-badge&logo=pypi&logoColor=white)
-
 ![OS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white)
 
 ![Language](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+![Framework](https://img.shields.io/badge/pypi-3775A9?style=for-the-badge&logo=pypi&logoColor=white)
 ----
 
 Repo for self-taught Python programming. Includes (but not limited to) descriptions, tutorials, exercises, & projects.
