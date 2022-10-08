@@ -1,10 +1,11 @@
 ![Logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png)
 
 
-# Python Learning
-![Consumption](https://img.shields.io/static/v1?label=Consumption&message=Public&color=fed42a)
+# Python 3 Lessons
+![Framework](https://img.shields.io/badge/pypi-3775A9?style=for-the-badge&logo=pypi&logoColor=white)
+
 ![OS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white)
-![Purpose](https://img.shields.io/static/v1?label=Purpose&message=Educational&color=b497d5)
+
 ![Language](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 ----
 
