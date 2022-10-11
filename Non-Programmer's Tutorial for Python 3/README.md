@@ -20,6 +20,7 @@
 *  [09 - For Loops](https://github.com/rhc-iv/Python-3-Lessons/tree/main/Non-Programmer's%20Tutorial%20for%20Python%203/09%20-%20For%20Loops)
 *  [10 - Boolean Expressions](https://github.com/rhc-iv/Python-3-Lessons/tree/main/Non-Programmer's%20Tutorial%20for%20Python%203/10%20-%20Boolean%20Expressions)
 *  [11 - Dictionaries](https://github.com/rhc-iv/Python-3-Lessons/tree/main/Non-Programmer's%20Tutorial%20for%20Python%203/11%20-%20Dictionaries)
+*  [12 - Using Modules](https://github.com/rhc-iv/Python-3-Lessons/tree/main/Non-Programmer's%20Tutorial%20for%20Python%203/12%20-%20Using%20Modules)
 
 ## TO-DO:
 *  _Create & Orgranize folders corresponding to the tutorial chapter layout._
