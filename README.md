@@ -3,10 +3,8 @@
 
 # Python 3 Lessons
 ![OS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white)
-     _Monterey 12.6_
 
 ![Language](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-     _3.8, 3.9, 3.10_
 
 ![Framework](https://img.shields.io/badge/pypi-3775A9?style=for-the-badge&logo=pypi&logoColor=white)
 
