@@ -24,6 +24,7 @@
 *  [11 - Dictionaries](https://github.com/rhc-iv/Python-3-Lessons/tree/main/Non-Programmer's%20Tutorial%20for%20Python%203/11%20-%20Dictionaries)
 *  [12 - Using Modules](https://github.com/rhc-iv/Python-3-Lessons/tree/main/Non-Programmer's%20Tutorial%20for%20Python%203/12%20-%20Using%20Modules)
 *  [13 - More On Lists](https://github.com/rhc-iv/Python-3-Lessons/tree/main/Non-Programmer's%20Tutorial%20for%20Python%203/13%20-%20More%20On%20Lists)
+*  [14 - Revenge of the Strings](https://github.com/rhc-iv/Python-3-Lessons/tree/main/Non-Programmer's%20Tutorial%20for%20Python%203/14%20-%20Revenge%20of%20the%20Strings)
 
 ## TO-DO:
 *  _Create & Orgranize folders corresponding to the tutorial chapter layout._
