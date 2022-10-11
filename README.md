@@ -29,7 +29,7 @@ Repo for self-taught Python programming. Includes (but not limited to) descripti
 ## Folders
 
 *  [Non-Programmer's Guide to Python 3](https://github.com/rhc-iv/Python-3-Lessons/tree/main/Non-Programmer's%20Tutorial%20for%20Python%203)
-*  [Learn X In Y Minutes (Where X = Python)](https://github.com/rhc-iv/Python-3-Lessons/tree/main/Non-Programmer's%20Tutorial%20for%20Python%203)
+*  [Learn X In Y Minutes (Where X = Python)](https://github.com/rhc-iv/Python-3-Lessons/tree/main/Learn%20Python%20in%20Y%20Minutes)
 *  _The Hitchhiker's Guide to Python! (coming soon)_
 
 ## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Recent activity [![Time period](https://images.repography.com/29105873/rhc-iv/Python-3-Lessons/recent-activity/22c8fb13e890ed3212fdd41ed3b0db42_badge.svg)](https://repography.com)
