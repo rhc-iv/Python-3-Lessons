@@ -1,10 +1,15 @@
 ![Logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png)
 
 
-# Python Learning
-![Consumption](https://img.shields.io/static/v1?label=Consumption&message=Public&color=fed42a)
-![Purpose](https://img.shields.io/static/v1?label=Purpose&message=Educational&color=b497d5)
-![Python 3](https://img.shields.io/static/v1?label=Python3&message=3.10.6&color=9ed670)
+# Python 3 Lessons
+![OS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white)
+     _Monterey 12.6_
+
+![Language](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+     _3.8, 3.9, 3.10_
+
+![Framework](https://img.shields.io/badge/pypi-3775A9?style=for-the-badge&logo=pypi&logoColor=white)
+
 ----
 
 Repo for self-taught Python programming. Includes (but not limited to) descriptions, tutorials, exercises, & projects.
